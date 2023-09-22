@@ -1,0 +1,110 @@
+/* Update the login container styles */
+.login-container {
+  background-color: #e4ebebd2;
+  box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.2);
+  border-radius: 0.5rem;
+  padding: 3.75rem;
+  width: 24.375rem;
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30rem;
+  margin-left: 15rem; /* Adjust margin to push it to the right */
+  transform: translateY(-50%);
+  overflow: hidden; /* Hide overflow content */
+}
+
+.whole {
+  background-color: #29108bab;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Create a new CSS class for the left side (animation) */
+.animation-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45rem;
+  height: 50rem /* Set the height to 100% to take up the entire login container */
+  /* background-color: #f5f5f5; Optional background color for the animation area */
+}
+
+
+a {
+  text-decoration: none;
+}
+
+.login-heading {
+  font-size: 2.125rem;
+  font-weight: bolder;
+  margin-top: -0.625rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+form label {
+  font-weight: bold;
+  margin-bottom: 0.3125rem;
+}
+
+form input[type="text"],
+form input[type="password"] {
+  width: 100%;
+  padding: 0.9375rem;
+  margin: 0.625rem 0;
+  border: 0.0625rem solid #29108bab;
+  background-color: #e6eaf1;
+  border-radius: 0.25rem;
+  font-size: 1rem;
+}
+
+form button {
+  background-color: #29108bbe;
+  color: #fff;
+  border: none;
+  border-radius: 0.25rem;
+  width: 100%;
+  padding: 0.9375rem;
+  font-size: 1.125rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 1.25rem;
+}
+
+form button:hover {
+  background-color: #16045eab;
+    color: #fff; /* Text color on hover */
+  transform: scale(1.05); /* Scale the button on hover */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.footer {
+  margin-top: 1.25rem;
+  font-size: 0.875rem;
+  color: #777;
+}
+
+@media (max-width: 37.5rem) {
+  .login-container {
+    width: 90%;
+  }
+}
+
+
+
+.error {
+  color: red;
+  font-size: 0.875rem;
+  margin-bottom: 0.3125rem;
+}
