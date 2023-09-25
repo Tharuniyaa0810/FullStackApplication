@@ -1,0 +1,159 @@
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+/* Logo and name styles */
+.logo-and-name {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.logo-and-name img {
+  max-width: 60px;
+  height: auto;
+}
+
+.logo-and-name h2 {
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+/* Admin Dashboard container */
+.admin-dashboard {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #5d37f5;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 20px;
+}
+
+.sidebar ul li {
+  margin-bottom: 10px;
+  padding: 15px;
+  transition: background-color 0.3s;
+}
+
+.sidebar ul li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+/* Hover effect on sidebar items */
+.sidebar ul li:hover {
+  background-color: #5334dcd0;
+  cursor: pointer;
+}
+
+/* Active link style (if you have a route that indicates the active page) */
+.sidebar ul li.active {
+  background-color: #f00;
+}
+
+/* Header styles */
+.header {
+  background-color: #5d37f5;
+  color: #fff;
+  padding: 16px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* User count and transaction count container styles */
+/* .user-count,
+.transaction-count {
+  background-color: #fff;
+  padding: 20px;
+  flex-direction: row;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 250px;
+  margin-top: 20px;
+  margin-right: 40rem;
+  position: relative;
+  z-index: 2;
+}
+
+.user-count h2,
+.transaction-count h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+} */
+
+/* Main content styles */
+.main-content {
+  flex: 1;
+  background-color: #f5f5f5;
+  padding-left: 250px;
+}
+/* Style for dashboard content */
+/* Center the dashboard statistics in a box */
+.dashboard-content {
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  height: calc(100vh - 70px); /* Subtract header height */
+  margin-top:-15rem;
+}
+
+.dashboard-stats-box {
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  display: flex;
+  margin:5rem;
+  
+}
+
+.dashboard-stats {
+  display: flex;
+  flex-direction: column;
+  
+  /* align-items: center; */
+}
+
+.dashboard-stats h2 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Adjust width of user count and transaction count if necessary */
+.user-count,
+.transaction-count {
+  width: auto; /* By default, they should take the content width */
+}
+
+/* Responsive media query for screens smaller than 768px */
+@media (max-width: 768px) {
+  .main-content {
+    padding-left: 20px; /* Adjust padding for smaller screens */
+  }
+}

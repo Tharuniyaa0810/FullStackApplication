@@ -1,0 +1,38 @@
+/* Transaction.css */
+.transaction-table {
+    width: 80%; /* Adjust the width as needed */
+    margin: 20px auto; /* Center the table and add margin */
+    border-collapse: collapse;
+  }
+  
+  .transaction-table th,
+  .transaction-table td {
+    border: 1px solid #e0e0e0;
+    padding: 8px;
+    text-align: left;
+    color: black; /* Set text color to black */
+  }
+  
+  .transaction-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .transaction-table tbody tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+  
+  .transaction-table tbody tr:hover {
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  .transaction-table-container {
+    text-align: center;
+  }
+  
+  .transaction-table-container h2 {
+    color: black; /* Set heading text color to black */
+    margin-bottom: 10px;
+  }
+  

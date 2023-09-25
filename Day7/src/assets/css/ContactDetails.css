@@ -1,0 +1,168 @@
+/* ContactDetails.css */
+
+.contact-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .contact-info {
+    margin-bottom: 20px;
+  }
+  
+  .contact-info h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color:#fff ;
+  }
+  
+  .contact-info p {
+    margin: 5px 0;
+    color:#bfbfbf ;
+  }
+  
+  .social-links a {
+    color: #68aeff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 20px;
+  }
+  
+  .social-links a:hover {
+    color: #fff;
+  }
+  .classcolorforfollow{
+    color: #fff;
+  }
+  /* CSS for ContactDetails component */
+
+/* Style for link buttons */
+.link-button {
+    background: none;
+    border: none;
+    padding: 0;
+    width: 200px;
+    font: inherit;
+    color: #4aa0fd;
+    cursor: pointer;
+    text-decoration: underline; 
+  }
+
+  .link-button:hover {
+    text-decoration: none; 
+    color: #0056b3; 
+  }
+  /* Contact Us Page Container */
+.contact-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Us Page Title */
+.contact-us-title {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* Contact Information */
+.contact-info {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.contact-info-item {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.contact-info-label {
+  font-weight: bold;
+}
+
+/* Contact Form */
+.contact-form-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact-form-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.form-textarea {
+  resize: vertical;
+}
+
+.form-submit-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-submit-button:hover {
+  background-color: #0056b3;
+}
+
+/* Social Media Links */
+.social-media-title {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.social-media-list {
+  list-style: none;
+  padding: 0;
+}
+
+.social-media-item {
+  margin-bottom: 10px;
+}
+
+.social-media-link {
+  display: inline-block;
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.social-media-link i {
+  margin-right: 10px;
+}
+
+.social-media-link:hover {
+  color: #007bff;
+}
